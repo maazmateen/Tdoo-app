@@ -30,6 +30,6 @@ function todoEdited(index){
     var editValue = prompt("Enter the value here", globalArr[index])
     globalArr.splice(index,1,editValue)
     ol.innerHTML = ""; 
-       render()
+       render(()
         
     }
